@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium = "*"
+autopep8 = "*"
+timeago = "*"
+python-dateutil = "*"
+pytz = "*"
+pandas = "*"
+python-dotenv = "*"
+pandas-gbq = "*"
+google-cloud-bigquery = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
